@@ -21,15 +21,15 @@ type PageMeta = { title: string; description: string; crumb: string };
 const PAGES: Record<Lang, Record<PageKey, PageMeta>> = {
   en: {
     home: {
-      title: "IELTS Imperia — IELTS & SAT Courses in Urgench",
+      title: "IELTS Imperia — IELTS & English Courses in Urgench",
       description:
-        "Premium IELTS, SAT and English academy in Urgench, Uzbekistan, led by Khushnud Rustamovich since 2016. Real computer mock tests, IELTS 8+ prep and cash rewards up to $300.",
+        "Premium IELTS and English academy in Urgench, Uzbekistan, led by Khushnud Rustamovich since 2016. Real computer mock tests, IELTS 8+ prep and cash rewards up to $300.",
       crumb: "Home",
     },
     courses: {
-      title: "IELTS, SAT & Kids English Courses in Urgench | IELTS Imperia",
+      title: "IELTS & Kids English Courses in Urgench | IELTS Imperia",
       description:
-        "IELTS, Individual IELTS, IELTS 8+, Kids English (from 8 years), SAT and Grammar courses in Urgench. Lessons in Uzbek or Russian with real computer-based mock tests.",
+        "IELTS, Individual IELTS, IELTS 8+, Kids English (from 8 years) and Grammar courses in Urgench. Lessons in Uzbek or Russian with real computer-based mock tests.",
       crumb: "Courses",
     },
     rewards: {
@@ -59,15 +59,15 @@ const PAGES: Record<Lang, Record<PageKey, PageMeta>> = {
   },
   ru: {
     home: {
-      title: "IELTS Imperia — курсы IELTS и SAT в Ургенче",
+      title: "IELTS Imperia — курсы IELTS и английского в Ургенче",
       description:
-        "Премиальная академия IELTS, SAT и английского в Ургенче, Узбекистан. Хушнуд Рустамович с 2016 года. Компьютерные пробные тесты, подготовка к IELTS 8+ и денежные призы до $300.",
+        "Премиальная академия IELTS и английского в Ургенче, Узбекистан. Хушнуд Рустамович с 2016 года. Компьютерные пробные тесты, подготовка к IELTS 8+ и денежные призы до $300.",
       crumb: "Главная",
     },
     courses: {
-      title: "Курсы IELTS, SAT и английского для детей в Ургенче | IELTS Imperia",
+      title: "Курсы IELTS и английского для детей в Ургенче | IELTS Imperia",
       description:
-        "IELTS, индивидуальный IELTS, IELTS 8+, английский для детей (с 8 лет), SAT и грамматика в Ургенче. Занятия на узбекском или русском с реальными компьютерными тестами.",
+        "IELTS, индивидуальный IELTS, IELTS 8+, английский для детей (с 8 лет) и грамматика в Ургенче. Занятия на узбекском или русском с реальными компьютерными тестами.",
       crumb: "Курсы",
     },
     rewards: {
@@ -97,15 +97,15 @@ const PAGES: Record<Lang, Record<PageKey, PageMeta>> = {
   },
   uz: {
     home: {
-      title: "IELTS Imperia — Urganchda IELTS va SAT kurslari",
+      title: "IELTS Imperia — Urganchda IELTS va ingliz tili kurslari",
       description:
-        "Urganchdagi premium IELTS, SAT va ingliz tili o'quv markazi. Xushnud Rustamovich 2016-yildan beri o'qitadi. Kompyuterda real mock testlar, IELTS 8+ tayyorgarlik va $300 gacha pul mukofoti.",
+        "Urganchdagi premium IELTS va ingliz tili o'quv markazi. Xushnud Rustamovich 2016-yildan beri o'qitadi. Kompyuterda real mock testlar, IELTS 8+ tayyorgarlik va $300 gacha pul mukofoti.",
       crumb: "Bosh sahifa",
     },
     courses: {
-      title: "Urganchda IELTS, SAT va bolalar uchun ingliz tili kurslari | IELTS Imperia",
+      title: "Urganchda IELTS va bolalar uchun ingliz tili kurslari | IELTS Imperia",
       description:
-        "Urganchda IELTS, individual IELTS, IELTS 8+, bolalar uchun ingliz tili (8 yoshdan), SAT va grammatika kurslari. Darslar o'zbek yoki rus tilida, kompyuterda real testlar bilan.",
+        "Urganchda IELTS, individual IELTS, IELTS 8+, bolalar uchun ingliz tili (8 yoshdan) va grammatika kurslari. Darslar o'zbek yoki rus tilida, kompyuterda real testlar bilan.",
       crumb: "Kurslar",
     },
     rewards: {
@@ -221,7 +221,7 @@ export const orgJsonLd = {
   },
   availableLanguage: ["English", "Russian", "Uzbek"],
   sameAs: ["https://t.me/Khushnud_Rustamovich_IELTS"],
-  description: `Premium IELTS, SAT and English academy in ${ADDRESS.en} led by Khushnud Rustamovich since 2016. Real computer-based IELTS mock tests, IELTS 8+ preparation, and cash rewards for high band scores.`,
+  description: `Premium IELTS and English academy in ${ADDRESS.en} led by Khushnud Rustamovich since 2016. Real computer-based IELTS mock tests, IELTS 8+ preparation, and cash rewards for high band scores.`,
 };
 
 export const websiteJsonLd = {
@@ -243,7 +243,6 @@ export const coursesJsonLd = {
     ["Individual IELTS", "One-to-one IELTS preparation with a personal plan."],
     ["IELTS 8+ Preparation", "High-band preparation for students targeting IELTS 8.0 and above."],
     ["Kids English (8+ years)", "Interactive English lessons for children from 8 years old."],
-    ["SAT", "SAT exam preparation."],
     ["English Grammar", "Grammar courses with computer-based IELTS-format tests."],
   ].map(([name, description], i) => ({
     "@type": "ListItem",
