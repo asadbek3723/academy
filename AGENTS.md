@@ -1,0 +1,3 @@
+- Keep course presentation in the shared Courses section and the closing contact band in FinalCta so homepage and program pages stay consistent.
+- Import course imagery in the shared Courses section and preserve fixed aspect ratios so every language and course view uses consistent media.
+- Use global semantic CSS tokens for editorial course surfaces and photographic contact overlays so presentation changes remain theme-consistent.

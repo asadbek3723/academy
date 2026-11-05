@@ -1,16 +1,13 @@
 {
   "name": "IELTS Imperia",
   "short_name": "IELTS Imperia",
-  "description": "IELTS Imperia — IT, tillar va abituriyentlar uchun zamonaviy ta'lim markazi",
+  "description": "Premium IELTS, SAT and English academy in Urgench, Uzbekistan.",
   "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#3b82f6",
+  "display": "browser",
+  "background_color": "#140b0a",
+  "theme_color": "#140b0a",
   "icons": [
-    {
-      "src": "/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    }
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
