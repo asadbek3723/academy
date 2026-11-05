@@ -41,14 +41,13 @@ const en = {
   },
   courses: {
     eyebrow: "Programs",
-    title: "One goal. Six paths to it.",
+    title: "One goal. Five paths to it.",
     sub: "Choose the program that fits your ambition. Every path ends in confidence.",
     items: [
       { t: "IELTS", tag: "Core", d: "Complete preparation across all four skills, with weekly computer-based mocks." },
       { t: "Individual IELTS", tag: "1-on-1", d: "A private mentor, a personal plan, and the fastest route to your target band." },
       { t: "IELTS 8+", tag: "Elite", d: "For the ambitious. Advanced strategy and precision to break through Band 8." },
       { t: "Kids English", tag: "Age 8+", d: "Children speak English as naturally as their own language — joyfully, without struggle." },
-      { t: "SAT", tag: "Admissions", d: "Focused preparation for top university admissions, built on real test formats." },
       { t: "Grammar", tag: "Foundation", d: "Rock-solid grammar, trained in IELTS-format computer tests until it's automatic." },
     ],
   },
@@ -137,14 +136,13 @@ const ru: Dict = {
   },
   courses: {
     eyebrow: "Программы",
-    title: "Одна цель. Шесть путей к ней.",
+    title: "Одна цель. Пять путей к ней.",
     sub: "Выберите программу под свою амбицию. Каждый путь ведёт к уверенности.",
     items: [
       { t: "IELTS", tag: "Основа", d: "Полная подготовка по всем четырём навыкам с еженедельными компьютерными mock-тестами." },
       { t: "Индивидуальный IELTS", tag: "1-на-1", d: "Личный ментор, персональный план и самый быстрый путь к целевому баллу." },
       { t: "IELTS 8+", tag: "Элита", d: "Для амбициозных. Продвинутая стратегия и точность, чтобы пробить Band 8." },
       { t: "Kids English", tag: "От 8 лет", d: "Дети говорят по-английски так же легко, как на родном языке — с радостью." },
-      { t: "SAT", tag: "Поступление", d: "Целевая подготовка к топ-университетам на реальных форматах теста." },
       { t: "Грамматика", tag: "Фундамент", d: "Железная грамматика, отточенная в компьютерных тестах формата IELTS." },
     ],
   },
@@ -231,14 +229,13 @@ const uz: Dict = {
   },
   courses: {
     eyebrow: "Dasturlar",
-    title: "Bitta maqsad. Unga olti yo'l.",
+    title: "Bitta maqsad. Unga besh yo'l.",
     sub: "Orzuingizga mos dasturni tanlang. Har bir yo'l ishonch bilan tugaydi.",
     items: [
       { t: "IELTS", tag: "Asosiy", d: "To'rtta ko'nikma bo'yicha to'liq tayyorgarlik va haftalik kompyuter mock testlari." },
       { t: "Individual IELTS", tag: "1-ga-1", d: "Shaxsiy ustoz, shaxsiy reja va maqsadli ballga eng tez yo'l." },
       { t: "IELTS 8+", tag: "Elita", d: "Katta maqsadlilar uchun. 8 balldan oshish uchun ilg'or strategiya." },
       { t: "Kids English", tag: "8 yoshdan", d: "Bolalar ingliz tilida o'z ona tilidagidek erkin va quvonch bilan gapiradi." },
-      { t: "SAT", tag: "Qabul", d: "Nufuzli universitetlarga qabul uchun haqiqiy test formatida tayyorgarlik." },
       { t: "Grammatika", tag: "Poydevor", d: "IELTS formatidagi kompyuter testlarida mustahkamlangan grammatika." },
     ],
   },

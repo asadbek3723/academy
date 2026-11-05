@@ -6,12 +6,11 @@ import courseIelts from "@/assets/course-ielts.jpg";
 import courseIndividual from "@/assets/course-individual.jpg";
 import courseAdvanced from "@/assets/course-advanced.jpg";
 import courseKids from "@/assets/course-kids.jpg";
-import courseSat from "@/assets/course-sat.jpg";
 import courseGrammar from "@/assets/course-grammar.jpg";
 import { useT } from "@/lib/i18n";
 import { Counter, Eyebrow, LLink, Reveal } from "./site";
 
-const courseImages = [courseIelts, courseIndividual, courseAdvanced, courseKids, courseSat, courseGrammar];
+const courseImages = [courseIelts, courseIndividual, courseAdvanced, courseKids, courseGrammar];
 const whyIcons = [Monitor, Flame, Users, Languages, Sparkles, Trophy];
 
 function Glow({ children, className = "" }: { children: React.ReactNode; className?: string }) {

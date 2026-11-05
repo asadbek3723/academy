@@ -1,7 +1,7 @@
 import { ADDRESS, GEO, LANGS, MAPS_URL, pathFor, type Lang } from "./locale";
 
 export const SITE_URL = "https://ieltsimperia.uz";
-export const OG_IMAGE = `${SITE_URL}/og-image.jpg`;
+export const OG_IMAGE = `${SITE_URL}/og-image-v2.jpg`;
 
 export type PageKey = "home" | "courses" | "rewards" | "method" | "mentor" | "contact";
 
